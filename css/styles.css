@@ -1,0 +1,35 @@
+/* .container{
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+}
+ */
+/* .contenu{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+.container{
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+td{
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    vertical-align: middle;
+}
+
+p svg{
+    vertical-align: middle;
+}
